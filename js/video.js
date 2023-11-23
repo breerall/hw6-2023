@@ -11,7 +11,7 @@ console.log("Auto play is set to " + video.autoplay);
 video.loop = false; // Turn off looping
 console.log("Loop is set to " + video.loop);
 // Set initial volume to 100%
-video.volume = 1.0; // 1.0 is 100% in the HTMLMediaElement API
+video.volume = 1.0;
 updateVolumeDisplay(); // Update the volume display
 
 //Play Video
