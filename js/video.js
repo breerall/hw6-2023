@@ -46,10 +46,10 @@ document.querySelector("#faster").addEventListener("click", function() {
 
 // Skip ahead in the video
 document.querySelector("#skip").addEventListener("click", function() {
-	if(video.currentTime + 15 > video.duration){
+	if(video.currentTime + 10 > video.duration){
 		video.currentTime = 0;
 	} else {
-		video.currentTime += 15;
+		video.currentTime += 10;
 	}
 	console.log("Skip Ahead");
 	console.log("Video current time is " + video.currentTime);
